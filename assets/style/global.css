@@ -1,0 +1,29 @@
+/* Estilos Globales */
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-optical-sizing: auto;
+	line-height: 1.6;
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+}
+
+.navbar, .habilidades, .formulario {
+    background-color: #1E1E1E;
+}
+
+.sobreMi, .seccion-proyectos, .footer {
+    background-color: #2C2C2C;
+}
+
+.sobreMi h1, .sobreMi h2, .habilidades h3, .habilidades h5, .seccion-proyectos h2, .seccion-proyectos h6, .formulario h2, .footer p, .navegacion .nav-link {
+    color: #FF5722;
+}
+
+.navegacion .nav-link:hover {
+    color: #00BCD4;
+}

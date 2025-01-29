@@ -1,0 +1,21 @@
+.formulario-contenedor {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.formulario-contenedor:hover {
+    transform: translateY(-7px); 
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.7);
+}
+
+.form-btn {
+	background-color: #FF5722 !important;
+    color: #FFFFFF;
+}
+
+.btn:hover, .form-btn:hover {
+    background-color: #00BCD4 !important;
+}
